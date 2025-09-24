@@ -65,13 +65,12 @@
              </div>
 
              <div class="md:col-span-1">
-                 <div class="relative w-full mx-auto bg-gray-200 rounded-lg shadow-lg aspect-square">
-                     {{-- <img src="{{ asset('images/my-photo.jpg') }}" alt="Foto Abell" class="rounded-lg object-cover w-full h-full"> --}}
-                     <div class="w-full h-full flex items-center justify-center rounded-lg border-2 border-dashed border-gray-400">
-                         <p class="text-gray-500 text-center p-4">(1:1 ratio)</p>
-                     </div>
+                 <div class="relative w-full mx-auto bg-gray-200 rounded-lg shadow-lg aspect-[4/5]">
+                     <img src="/Stefanus-Abel-Fillio.png" alt="Foto Abell"
+                         class="rounded-lg object-cover w-full h-full">
                  </div>
              </div>
+
 
          </div>
      </div>

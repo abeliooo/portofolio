@@ -1,6 +1,11 @@
 <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 shadow-sm">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" class="text-3xl font-bold text-gray-800">Abell<span class="accent-color">.</span></a>
+        <nav class="hidden md:flex items-center space-x-2">
+            <a href="#hero" class="nav-link text-gray-600 font-medium py-2 px-4 rounded-lg transition-all duration-300">Home</a>
+            <a href="#about" class="nav-link text-gray-600 font-medium py-2 px-4 rounded-lg transition-all duration-300">About</a>
+            <a href="#projects" class="nav-link text-gray-600 font-medium py-2 px-4 rounded-lg transition-all duration-300">Projects</a>
+        </nav>
         <div class="flex items-center space-x-5">
             <a href="mailto:stefanusabel29@gmail.com" target="_blank" class="text-gray-500 hover:text-orange-600 transition-colors duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

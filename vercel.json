@@ -1,16 +1,12 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm install && npm run build && php artisan config:cache && php artisan route:cache && php artisan view:cache",
   "outputDirectory": "public",
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "public" } },
-    { "src": "api/lambda.php", "use": "vercel-php@0.7.4" }
-  ],
   "functions": {
-    "api/lambda.php": {
+    "api/index.php": {
       "runtime": "vercel-php@0.7.4"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/lambda.php" }
+    { "source": "/(.*)", "destination": "/api/index.php" }
   ]
 }

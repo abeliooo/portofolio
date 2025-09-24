@@ -34,3 +34,5 @@ Thumbs.db
 *.swp
 npm-debug.log*
 yarn-error.log*
+
+public/index.php

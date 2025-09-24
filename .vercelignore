@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Vite build output (akan dibuild ulang di Vercel)
+public/build/
+
+# Composer vendor (bisa diinstall ulang di Vercel)
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.backup
+
+# Git
+.git/
+.gitignore
+
+# Logs
+storage/logs/
+storage/framework/cache/
+storage/framework/views/
+storage/debugbar/
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary / cache files
+*.tmp
+*.swp
+npm-debug.log*
+yarn-error.log*

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm run build && php artisan config:cache && php artisan route:cache && php artisan view:cache",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "public",
   "functions": {
     "api/lambda.php": {

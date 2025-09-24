@@ -27,3 +27,5 @@ Homestead.json
 docker-compose.yml
 Dockerfile
 .vercel
+
+/public/build

@@ -32,7 +32,7 @@ class ProjectSeeder extends Seeder
                 'image_url' => '/DigiPurse.png',
                 'project_url' => 'null',
                 'source_code_url' => 'https://github.com/Kazeth/DigiPurse',
-                'notion_url' => 'https://www.notion.so/Digipurse-Documentation-23bd79ae3c3280f29fa6f920eea6fd8',
+                'notion_url' => 'https://www.notion.so/Digipurse-Documentation-23bd79ae3c3280f29fa6f920eea6fd88',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],

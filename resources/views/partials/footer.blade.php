@@ -4,9 +4,18 @@
         <p class="text-gray-600 max-w-2xl mx-auto mb-8 text-xl">
             I'm open for every opportunities. Whether you have a question or just want to say hi, feel free to reach out. My inbox is always open!
         </p>
-        
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusabel29@gmail.com" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 hover:bg-gray-900">
-            stefanusbel29@gmail.com
-        </a>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="mailto:stefanusabel29@gmail.com" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 hover:bg-gray-900">
+                Email Me
+            </a>
+
+            <a href="https://wa.me/6285179800802"
+                target="_blank"
+                class="inline-block bg-green-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 hover:bg-green-600">
+                Chat Me
+            </a>
+        </div>
+
+
     </div>
 </footer>

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Scroll wheel');
+    console.log("Oh Hi! Nice to meet you here :D");
     const projectCards = document.querySelectorAll('.project-card');
     const modal = document.getElementById('projectModal');
     

@@ -1,0 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F4F6;
+    color: #1f2937;
+}
+
+.accent-color { color: #dd6b20; }
+.bg-accent-color { background-color: #dd6b20; }
+.border-accent-color { border-color: #dd6b20; }
+.hover-bg-accent-darker:hover { background-color: #c05621; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #e5e7eb; }
+::-webkit-scrollbar-thumb { background: #9ca3af; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #6b7280; }

@@ -10,4 +10,11 @@ class Technology extends Model
         'name',
         'svg_icon',
     ];
+
+    public function projects()
+    {
+        return $this->belongsToMany(Project::class, 'project_technology')
+            ->withPivot('type')
+            ->withTimestamps();
+    }
 }

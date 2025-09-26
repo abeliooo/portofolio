@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('image_url')->nullable();
             $table->string('project_url')->nullable();
             $table->string('source_code_url')->nullable();
+            $table->string('notion_url')->nullable();
             $table->timestamps();
         });
     }

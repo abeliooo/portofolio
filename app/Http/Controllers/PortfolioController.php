@@ -12,7 +12,7 @@ class PortfolioController extends Controller
 {
     public function index()
     {
-        $projects = Project::latest()->get();
+        $projects = Project::with(['technologies'])->latest()->get();
         $educations = Education::orderBy('end_year', 'desc')->get();
         $technologies = Technology::all();
         $experiences = Experience::orderBy('end_year')->get();

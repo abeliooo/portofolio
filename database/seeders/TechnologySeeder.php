@@ -14,6 +14,11 @@ class TechnologySeeder extends Seeder
     public function run(): void
     {
         Technology::create([
+            'name' => 'Github',
+            'svg_icon' => 'svg_icon/c.svg'
+        ]);
+
+        Technology::create([
             'name' => 'C',
             'svg_icon' => 'svg_icon/c.svg'
         ]);
@@ -24,8 +29,8 @@ class TechnologySeeder extends Seeder
         ]);
 
         Technology::create([
-            'name' => 'JavaScript',
-            'svg_icon' => 'svg_icon/js.svg'
+            'name' => 'Python',
+            'svg_icon' => 'svg_icon/python.svg'
         ]);
 
         Technology::create([
@@ -39,6 +44,16 @@ class TechnologySeeder extends Seeder
         ]);
 
         Technology::create([
+            'name' => 'JavaScript',
+            'svg_icon' => 'svg_icon/js.svg'
+        ]);
+
+        Technology::create([
+            'name' => 'Laravel',
+            'svg_icon' => 'svg_icon/laravel.svg'
+        ]);
+
+        Technology::create([
             'name' => 'PHP',
             'svg_icon' => 'svg_icon/php.svg'
 
@@ -47,16 +62,6 @@ class TechnologySeeder extends Seeder
         Technology::create([
             'name' => 'MySQL',
             'svg_icon' => 'svg_icon/mysql.svg'
-        ]);
-
-        Technology::create([
-            'name' => 'Python',
-            'svg_icon' => 'svg_icon/python.svg'
-        ]);
-
-        Technology::create([
-            'name' => 'Laravel',
-            'svg_icon' => 'svg_icon/laravel.svg'
         ]);
 
         Technology::create([
@@ -81,6 +86,11 @@ class TechnologySeeder extends Seeder
             'name' => 'Firebase',
             'svg_icon' => 'svg_icon/firebase.svg'
 
+        ]);
+
+        Technology::create([
+            'name' => 'Motoko',
+            'svg_icon' => 'svg_icon/motoko.svg'
         ]);
     }
 }

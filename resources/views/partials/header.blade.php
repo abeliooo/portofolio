@@ -7,7 +7,7 @@
             <a href="#projects" class="nav-link text-gray-600 font-medium py-2 px-4 rounded-lg transition-all duration-300">Projects</a>
         </nav>
         <div class="flex items-center space-x-5">
-            <a href="mailto:stefanusabel29@gmail.com" target="_blank" class="text-gray-500 hover:text-orange-600 transition-colors duration-300">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusabel29@gmail.com" target="_blank" class="text-gray-500 hover:text-orange-600 transition-colors duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />

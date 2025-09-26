@@ -5,7 +5,7 @@
             I'm open for every opportunities. Whether you have a question or just want to say hi, feel free to reach out. My inbox is always open!
         </p>
         
-        <a href="mailto:stefanusbel29@gmail.com" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 hover:bg-gray-900">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stefanusabel29@gmail.com" class="inline-block bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 hover:bg-gray-900">
             stefanusbel29@gmail.com
         </a>
     </div>

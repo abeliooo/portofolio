@@ -15,7 +15,7 @@ class TechnologySeeder extends Seeder
     {
         Technology::create([
             'name' => 'Github',
-            'svg_icon' => 'svg_icon/c.svg'
+            'svg_icon' => 'svg_icon/github.svg'
         ]);
 
         Technology::create([

@@ -8,7 +8,6 @@
     data-source-url="{{ $project->source_code_url }}"
     data-notion-url="{{ $project->notion_url }}">
 
-    {{-- Gambar utama kartu --}}
     <img src="{{ $project->image_url ?? 'https://placehold.co/600x400/0A192F/CCD6F6?text=Project' }}"
         alt="{{ $project->title }}"
         class="w-full h-48 object-cover bg-gray-200 dark:bg-navy-lightest">
@@ -21,7 +20,6 @@
             {{ $project->short_description }}
         </p>
 
-        {{-- Menampilkan beberapa ikon teknologi di kartu (maksimal 5) --}}
         <div class="absolute bottom-4 left-6 flex flex-wrap gap-2">
             @foreach($project->technologies->take(5) as $tech)
             <div class="w-6 h-6" title="{{ $tech->name }}">

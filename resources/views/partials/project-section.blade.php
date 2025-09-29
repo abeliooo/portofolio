@@ -11,10 +11,8 @@
             </div>
         </div>
 
-        {{-- Menampilkan grid proyek --}}
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             @forelse($projects as $project)
-            {{-- Setiap proyek dirender menggunakan komponen project-card --}}
             <x-project-card :project="$project" />
             @empty
             <div class="col-span-full text-center text-gray-500 dark:text-slate">

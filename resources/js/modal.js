@@ -8,12 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-    let hideTimeout;
-    const HIDE_DELAY = 500;
-
     function showModal(card) {
-        clearTimeout(hideTimeout);
-
         document.getElementById('modal-title').textContent = card.dataset.title;
         document.getElementById('modal-description').textContent = card.dataset.description;
         document.getElementById('modal-image').src = card.dataset.image;
@@ -32,31 +27,25 @@ document.addEventListener('DOMContentLoaded', function () {
         modalContent.classList.remove('scale-95');
     }
 
-    function startHideTimer() {
-        clearTimeout(hideTimeout);
-        hideTimeout = setTimeout(() => {
-            modal.classList.add('opacity-0', 'pointer-events-none');
-            modalContent.classList.add('scale-95');
-        }, HIDE_DELAY);
-    }
-
-    function cancelHideTimer() {
-        clearTimeout(hideTimeout);
+    function hideModal() {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        modalContent.classList.add('scale-95');
     }
 
     projectCards.forEach(card => {
-        card.addEventListener('mouseenter', () => showModal(card));
-        card.addEventListener('mouseleave', startHideTimer);
+        card.addEventListener('click', () => showModal(card));
     });
-
-    modalContent.addEventListener('mouseenter', cancelHideTimer);
-    modalContent.addEventListener('mouseleave', startHideTimer);
 
     modal.addEventListener('click', function(event) {
         if (event.target === modal) {
-            startHideTimer();
+            hideModal();
         }
     });
+
+    const closeBtn = document.getElementById('modal-close');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', hideModal);
+    }
 
     function updateLink(elementId, url) {
         const link = document.getElementById(elementId);

@@ -37,6 +37,17 @@ class ProjectSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
+                'title' => 'The Rajin Titip',
+                'short_description' => 'The Rajin Titip is a C2C (Customer-to-Customer) marketplace that allows users to sell and buy goods through a secure, real-time auction system moderated by an admin. Inspired by @thelazytitip @thelazymonday',
+                'long_description' => 'The Rajin Titip is a modern C2C marketplace for real-time auctions, built with the MERN stack. It features a WebSocket powered bidding system that instantly syncs all price updates and countdowns for a fair and engaging experience. Transactions use a secure escrow system payments are held until buyers confirm receipt supported by a dispute resolution process with admin mediation and private chat per transaction, all managed through a comprehensive Admin Panel.',
+                'image_url' => '/TheRajinTitip.png',
+                'project_url' => 'https://therajintitip.vercel.app/admin/products',
+                'source_code_url' => 'https://github.com/abeliooo/TheRajinTitip',
+                'notion_url' => 'null',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
                 'title' => 'Garmedia',
                 'short_description' => 'Garmedia is a website to buy book you like, inspired by Gramedia.com (It is for my learning purpose) I am focusing on learning CRUD such as search book base on the title, or author or by the category.',
                 'long_description' => 'Garmedia is a web application built using the Laravel framework, inspired by Gramedia.com. The application serves as an online bookstore where users can browse and purchase books. The primary focus of this project is to implement CRUD (Create, Read, Update, Delete) operations, allowing users to search for books based on various criteria such as title, author, or category. This project is intended for learning purposes, providing hands-on experience with Laravel and web development concepts.',

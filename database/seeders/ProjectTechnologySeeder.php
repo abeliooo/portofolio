@@ -36,6 +36,14 @@ class ProjectTechnologySeeder extends Seeder
                 ['name' => 'PHP',     'type' => 'language'],
                 ['name' => 'MySQL',   'type' => 'database'],
             ],
+            'The Rajin Titip' => [
+                ['name' => 'React', 'type' => 'framework'],
+                ['name' => 'JavaScript', 'type' => 'language'],
+                ['name' => 'Express.js', 'type' => 'language'],
+                ['name' => 'Node.js', 'type' => 'language'],
+                ['name' => 'Python', 'type' => 'language'],
+                ['name' => 'Mongodb', 'type' => 'database'],
+            ],
         ];
 
         foreach ($projects as $title => $techs) {

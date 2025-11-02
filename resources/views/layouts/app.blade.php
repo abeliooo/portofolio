@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abell's Portfolio</title>
-    {{-- Tailwind CSS & Google Fonts --}}
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">

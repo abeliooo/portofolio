@@ -92,5 +92,20 @@ class TechnologySeeder extends Seeder
             'name' => 'Motoko',
             'svg_icon' => 'svg_icon/motoko.svg'
         ]);
+        
+        Technology::create([
+            'name' => 'Express.js',
+            'svg_icon' => 'svg_icon/express.svg'
+        ]);
+
+        Technology::create([
+            'name' => 'Node.js',
+            'svg_icon' => 'svg_icon/node.svg'
+        ]);
+
+        Technology::create([
+            'name' => 'Mongodb',
+            'svg_icon' => 'svg_icon/mongo.svg'
+        ]);
     }
 }

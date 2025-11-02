@@ -41,7 +41,7 @@ class ProjectSeeder extends Seeder
                 'short_description' => 'The Rajin Titip is a C2C (Customer-to-Customer) marketplace that allows users to sell and buy goods through a secure, real-time auction system moderated by an admin. Inspired by @thelazytitip @thelazymonday',
                 'long_description' => 'The Rajin Titip is a modern C2C marketplace for real-time auctions, built with the MERN stack. It features a WebSocket powered bidding system that instantly syncs all price updates and countdowns for a fair and engaging experience. Transactions use a secure escrow system payments are held until buyers confirm receipt supported by a dispute resolution process with admin mediation and private chat per transaction, all managed through a comprehensive Admin Panel.',
                 'image_url' => '/TheRajinTitip.png',
-                'project_url' => 'https://therajintitip.vercel.app/admin/products',
+                'project_url' => 'https://therajintitip.vercel.app/',
                 'source_code_url' => 'https://github.com/abeliooo/TheRajinTitip',
                 'notion_url' => 'null',
                 'created_at' => now(),
